@@ -25,7 +25,7 @@ Sample Output:
 """
 
 
-def runner_un_score(n, scores):
+def runner_up_score(n, scores):
     # Convert the scores map to a list
     scores_list = list(scores)
 
@@ -46,4 +46,4 @@ if __name__ == "__main__":
     n = int(input())
     arr = map(int, input().split())
 
-    runner_un_score(n, arr)
+    runner_up_score(n, arr)
